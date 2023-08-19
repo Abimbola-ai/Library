@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <h1>Enter Book Details here:</h1>
+        <form action="#">
+            <div>
+                <label for="bookTitle">Book Title:</label>
+                <input type="text" id="bookTitle">
+            </div>
+            <div>
+                <label for="bookAuthor">Author:</label>
+                <input type="text" id="bookAuthor">
+            </div>
+            <div>
+                <label for="bookPages">Pages:</label>
+                <input type="text" id="bookPages">
+            </div>
+            <div>
+                <label for="bookRead">Read:</label>
+                <select name="bookRead" id="bookRead">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div> 
+            <button id="addBookButton" type="button">Add New Book</button>
+        </form>
+    
+    </section>
+    <section class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>S/N</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Read</th>
+                    <th>Button-1</th>
+                    <th>Button-2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--Add books here-->
+            </tbody>
+            
+        </table>
+    </section>
+
+    
+<script src="script.js"></script>
+</body>
+</html>
